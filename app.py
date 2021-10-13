@@ -1,3 +1,8 @@
+try:
+    import cloudhost.Core
+except:
+    import os
+    os.system('pip install cloudhost')
 from data.channel import Channel
 C=Channel(
     'https://onlineattendence.art.blog',
